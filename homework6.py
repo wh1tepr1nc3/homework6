@@ -4,7 +4,8 @@ print(my_dict.get('Dmitry'))
 print(my_dict.get('Nikita'))
 my_dict.update({'Vasya': 2006,
                 'Masha': 1987})
-del my_dict ['Denis']
+a = my_dict.pop('Denis')
+print(a)
 print(my_dict)
 
 #-------------------------------------------------------------------------------
